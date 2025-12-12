@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "attachment-crash-suppressor",
+  "version": "${version}",
+  "name": "Attachment Crash Suppressor",
+  "description": "Simple client-side crash suppressor for fabric-data-attachment-api",
+  "authors": [
+    "DimasKama"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/attachment-crash-suppressor",
+    "sources": "https://github.com/DimasKama/attachment-crash-suppressor",
+    "issues": "https://github.com/DimasKama/attachment-crash-suppressor/issues"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/attachment-crash-suppressor/icon.png",
+  "environment": "client",
+  "mixins": [
+    "attachment-crash-suppressor.mixins.json"
+  ],
+  "depends": {
+    "fabric-api": "*"
+  }
+}
